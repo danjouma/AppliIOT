@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "491147720498",
+    "project_id": "appliiot",
+    "storage_bucket": "appliiot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491147720498:android:de265ef8f05c0f9c5e892b",
+        "android_client_info": {
+          "package_name": "com.example.appliiot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491147720498-tnn9bn8qg56527i3ic8qsgpefal4rj8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_wmUtIDL88oGYRYi4VTRZsELf0Jb7OrY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491147720498-tnn9bn8qg56527i3ic8qsgpefal4rj8m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
