@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Login"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="173dp"
+        tools:ignore="MissingConstraints" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Email"
+        android:hint="@string/Email"
+
+
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Password"
+        android:hint="@string/Password"
+
+
+        />
+    <ProgressBar
+        android:id="@+id/Progressbar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/boutonLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/s_authentifier"/>
+    <TextView
+        android:id="@+id/registerNow"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:text="Cliquer pour vous enregistrer "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/Reset"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:text="Mot de passe oublié ? "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

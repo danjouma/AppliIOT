@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">AppliIOT</string>
+    <string name="Register">Enregistrez vous </string>
+    <string name="email">Entrez votre email</string>
+    <string name="password">Mot de passe</string>
+    <string name="Enregistrement">Enregistrer</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="Email">Entrez votre adresse mail</string>
+    <string name="Password">Entrez votre mot de passe</string>
+    <string name="Login">Authentification</string>
+    <string name="s_authentifier">S\'authentifier</string>
+    <string name="cliquer_pour_vous_enregistrer">Cliquer pour vous enregistrer</string>
 </resources>
