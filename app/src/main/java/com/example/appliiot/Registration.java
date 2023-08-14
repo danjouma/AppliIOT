@@ -36,6 +36,7 @@ public class Registration extends AppCompatActivity {
             finish();
         }
     }
+    Utilisateur utilisateur1 = new Utilisateur()
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
